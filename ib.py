@@ -19,7 +19,7 @@ import json
 # ==============================================================================
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "Y8614534151:AAG0i-6XuNuErvlNHMits9OjfuZrVPwNLhs")
-SERVER_URL = os.environ.get("SERVER_URL", "YOUR_RENDER_EXTERNAL_URL") 
+SERVER_URL = os.environ.get("SERVER_URL", "https://golike.onrender.com") 
 WEBHOOK_URL_PATH = f"/{BOT_TOKEN}"
 WEBHOOK_PORT = int(os.environ.get("PORT", 5000))
 
