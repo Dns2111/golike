@@ -1,6 +1,6 @@
 flask
 pyTelegramBotAPI
 cloudscraper
-colorama
 requests
-psycopg2-binary
+colorama
+gunicorn
